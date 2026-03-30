@@ -22,7 +22,7 @@ st.markdown(
 )
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
-MODEL_DIR = "models"
+MODEL_DIR = "Models"
 MODEL_PATH   = os.path.join(MODEL_DIR, "self_training_gpc.joblib")
 SCALER_PATH  = os.path.join(MODEL_DIR, "scaler.joblib")
 FEATURES_PATH = os.path.join(MODEL_DIR, "feature_columns.joblib")
