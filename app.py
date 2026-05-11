@@ -15,7 +15,7 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("🤖 Self-Training Gaussian Process Classifier")
+st.title("🤖 Predictive Model for Malaria Drug Resistance in HIV-Positive Patients")
 st.markdown(
     "Binary classification: **Active (1)** vs **Not Active (0)** — "
     "powered by a `SelfTrainingClassifier` wrapping a `GaussianProcessClassifier(RBF)`."
